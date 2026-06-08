@@ -58,11 +58,11 @@ public class PlayerController : MonoBehaviour
         Vector3 playerScreenPos = Camera.main.WorldToScreenPoint(transform.position);
         if (mousePos.x < playerScreenPos.x)
         {
-            spriteRenderer.flipX = true; // Facing left
+            spriteRenderer.flipX = true;
         }
         else
         {
-            spriteRenderer.flipX = false; // Facing right
+            spriteRenderer.flipX = false;
         }
     }
 }
